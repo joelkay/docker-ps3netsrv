@@ -7,6 +7,6 @@ services:
       context: .
     restart: unless-stopped
     volumes:
-      - ./games:/games
+      - /mnt/DeepStorage/Data/isos/PS3:/games
     ports:
       - 38008:38008/tcp
